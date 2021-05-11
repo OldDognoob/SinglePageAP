@@ -1,4 +1,6 @@
 import React from "react";
 
-const Home = () => <div>This is the Home page;</div>
+import { Layout } from "../layout";
+
+const Home = () => <Layout>This is the Home page;</Layout>
 export default Home;

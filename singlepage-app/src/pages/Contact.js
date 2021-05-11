@@ -1,4 +1,6 @@
 import React from "react";
 
-const Contact = () => <div>This is the Contact page;</div>
+import { Layout } from "../layout";
+
+const Contact = () => <Layout>This is the Contact page;</Layout>
 export default Contact;
