@@ -1,10 +1,14 @@
+import React from "react";
 
-import './App.css';
+import { Home, About, Contact } from "./pages";
 
 function App() {
   return (
     <div>
-     Hello People!
+      <h1>Hello People!</h1>
+      <Home/>
+      <About/>
+      <Contact/>
     </div>
   );
 }
