@@ -3,7 +3,7 @@ import React from "react";
 import Nav from './Nav';
 
 const Layout = (props) => (
-  <div>
+  <div className='text-center p-10'>
     {props.children}
   </div>
 );
