@@ -1,6 +1,7 @@
 import React from "react";
 
 import Nav from './Nav';
+import Footer from './Footer';
 
 const Layout = (props) => (
   <div className='text-center p-10'>
@@ -8,4 +9,4 @@ const Layout = (props) => (
   </div>
 );
 
-export { Layout, Nav };
+export { Layout, Nav, Footer };

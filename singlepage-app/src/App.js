@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { Home, About, Contact } from "./pages";
-import { Nav } from "./layout";
+import { Nav, Footer } from "./layout";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/contact">
           <Contact />
         </Route>
+        <Footer/>
       </Switch>
     </Router>
   );

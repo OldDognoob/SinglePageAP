@@ -16,7 +16,7 @@ const Contact = () => (
       </div>
       <div className="flex flex-col text-left">
         <label>Message</label>
-        <textarea></textarea>
+        <textarea className='p-2 rounded h-32'></textarea>
       </div>
     </form>
   </Layout>
