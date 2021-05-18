@@ -1,11 +1,8 @@
 import React from "react";
 
 const Footer = () => (
-  <footer>
-      <option value="heart">
+  <footer className='bg-purple-500 text-center p-5 h-16 text-white'>
       Created with ❤️ by the Emperor
-      </option>
-    
   </footer>
 );
 export default Footer;
